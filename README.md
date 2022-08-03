@@ -5,7 +5,6 @@ Desenvolvido por: <a href="https://www.linkedin.com/in/devmatheuus/" target="_bl
 Deploy: <a href="https://react-entrega-s1-hamburgueria-eight.vercel.app/" target="_blank"> Acesse o projeto sem precisar instalar as dependências</a>
 
 ## Apresentando o projeto
-o Kenzie Hub é um ambiente para o usuário organizar seus projetos de acordo com o nível atual.
 
 Fazendo uso de conceitos como States, Props, UseEffect e Componentes, realizar esse projeto se tornou uma tarefa muito divertida!
 Algo bem interessante usado nesse projeto foi o uso das condicionais, tanto para renderização, quanto para determinada ação.
