@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+## Hamburgueria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvido por: <a href="https://www.linkedin.com/in/devmatheuus/" target="_blank">Matheus Lima</a> 
 
-## Available Scripts
+Deploy: <a href="https://react-entrega-s1-hamburgueria-eight.vercel.app/" target="_blank"> Acesse o projeto sem precisar instalar as dependências</a>
 
-In the project directory, you can run:
+## Apresentando o projeto
+o Kenzie Hub é um ambiente para o usuário organizar seus projetos de acordo com o nível atual.
 
-### `yarn start`
+Fazendo uso de conceitos como States, Props, UseEffect e Componentes, realizar esse projeto se tornou uma tarefa muito divertida!
+Algo bem interessante usado nesse projeto foi o uso das condicionais, tanto para renderização, quanto para determinada ação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Por exemplo, no filtro esta sendo usado uma renderização condicional para mostrar em tela somente o nome do item pesquisado que da match com o nome de algum item existente. Também é utilizado uma condicional para não permitir que o usuário adicione o mesmo item mais de uma vez no carrinho.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## Pré Requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * Node.js v16.15.0
+  * Yarn v1.22.18
 
-### `yarn build`
+## Passo a Passo - Instalando a aplicação
+ 
+  Para clonar o projeto, escolha um dos seguintes links e cole-o no terminal, no exemplo estou usando o git bash:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  SSH
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```
+  git clone git@github.com:devmatheuus/hamburgueria.git
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  HTTPS
 
-### `yarn eject`
+  ```
+  git clone https://github.com/devmatheuus/hamburgueria.git
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  Após fazer o clone do projeto, instale as dependências do projeto com o comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```
+  yarn
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  E por fim, rode o seguinte comando para rodar a aplicação localmente:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ```
+  yarn start
+  ```
